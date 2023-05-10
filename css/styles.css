@@ -1,0 +1,44 @@
+        body {
+            background-color: #F47B0A;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        form {
+            background-color: #FFFFFF;
+            max-width: 50%;
+            margin: 50px auto;
+            padding: 25px 25px;
+        }
+ 
+        .field {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        .field label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        .field input, .field select, .field textarea {
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        .field input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        button {
+            background-color: #F1CB9C;
+            border: 1px solid #000000;
+            border-radius: 1px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
